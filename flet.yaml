@@ -1,0 +1,4 @@
+app:
+  name: "GSPodcast"
+  package: "com.techmdmonjo.gspodcast"
+  version: "1.0.0"

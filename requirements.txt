@@ -1,0 +1,7 @@
+flet==0.23.2
+requests
+google-generativeai
+cloudconvert
+gTTS
+pydub
+bcrypt
