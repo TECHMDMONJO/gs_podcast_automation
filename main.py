@@ -226,3 +226,12 @@ def main(page: ft.Page):
         
         gemini_token_box = ft.TextField(label="Google Gemini Developer API Token Key", password=True, can_reveal_password=True, value=pull_config("gemini_api_key"))
         cloudconvert_toggle = ft.Switch(label="Route Compression Logic via External CloudConvert APIs", value=pull_config("use_cloudconvert", "False") == "True")
+
+
+# =====================================================================
+# SERVER STARTUP FOR RENDER
+# =====================================================================
+if __name__ == "__main__":
+    import os
+    port = int(os.getenv("PORT", 8080))
+    ft.app(target=main, view=ft.AppView.WEB_BROWSER, port=port, host="0.0.0.0")
