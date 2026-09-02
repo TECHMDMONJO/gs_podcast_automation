@@ -5,7 +5,6 @@ import threading
 import requests
 from gtts import gTTS
 from pydub import AudioSegment
-import google.generativeai as genai
 import cloudconvert
 
 DB_DIR = "instance"
