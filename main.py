@@ -2,7 +2,6 @@ import os
 import time
 import sqlite3
 import threading
-import bcrypt
 import requests
 from gtts import gTTS
 from pydub import AudioSegment
