@@ -3,7 +3,7 @@ uvicorn[standard]
 python-multipart
 itsdangerous
 bcrypt
-gTTS
 pydub
+edge-tts
 google-genai
 requests
