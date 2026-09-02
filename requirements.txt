@@ -5,5 +5,5 @@ itsdangerous
 bcrypt
 gTTS
 pydub
-google-generativeai
+google-genai
 requests
