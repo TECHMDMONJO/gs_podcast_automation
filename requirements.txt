@@ -7,3 +7,4 @@ pydub
 edge-tts
 google-genai
 requests
+cryptography
