@@ -5,7 +5,6 @@ import threading
 import requests
 from gtts import gTTS
 from pydub import AudioSegment
-import cloudconvert
 
 DB_DIR = "instance"
 DB_PATH = os.path.join(DB_DIR, "data.db")
