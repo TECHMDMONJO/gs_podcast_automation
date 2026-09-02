@@ -1,4 +1,3 @@
-import flet as ft
 import os
 import time
 import sqlite3
